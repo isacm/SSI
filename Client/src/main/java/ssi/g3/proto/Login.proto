@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+option java_outer_classname = "LoginProtos";
+
+message Login{
+	string email = 1;
+	string password = 2;
+}
+
+message Registo{
+    string nome = 1;
+    string password = 2;
+}
+
+message Email {
+    string titulo = 1;
+    string conteudo = 2;
+}
+
+message Entrega {
+    string remetente = 1;
+    bytes criptograma = 2;
+    int32 id = 3;
+}
+
+message Erro {
+    string erro = 1;
+}
+
+message Sucesso {
+    string sucesso = 1;
+}
+
+message PedidoCliente{
+    string nome = 1;
+}
+
+message RespostaPedido{
+    bytes certificado = 1;
+}
+
+message Entregas {
+    repeated Entrega entregas = 1;
+}
+
+message Envelope{
+    string destinatario = 1;
+    bytes criptograma = 2;
+    bytes key = 3;
+    bytes iv = 4;
+}
+
+message MensagensRecebidas{
+    repeated int32 ids = 1;
+}
+
+message Refresh{
+}

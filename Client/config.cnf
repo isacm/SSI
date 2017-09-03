@@ -1,0 +1,6 @@
+CAname=CA.cer
+KeyStoreType=pkcs12
+KeyStoreName=Cliente.p12
+Alias=Cliente
+PasswordKeyStore=1234
+PasswordAlias=1234

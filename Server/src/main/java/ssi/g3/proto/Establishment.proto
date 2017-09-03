@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_outer_classname = "StationToStation";
+
+message Establishment{
+	bytes gx = 1;
+}
+
+message KeyAndCert{
+	bytes gy = 1;
+	bytes cert = 2;
+	bytes sign = 3;
+	bytes iv = 4;
+	bytes mac = 5;
+}
+
+message CertAndCripto{
+	bytes certi = 1;
+	bytes cripto = 2;
+	bytes iv = 3;
+	bytes mac = 4;
+}

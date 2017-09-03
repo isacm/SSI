@@ -1,0 +1,15 @@
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/dao/ConnectionFactory.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/server/Reader.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/proto/CriptoMessage.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/dao/ClientDAOException.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/dao/MessageDAOException.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/proto/LoginProtos.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/proto/StationToStation.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/server/Server.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/server/Type.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/dao/MessageDAO.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/server/Writer.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/dao/ClientDAO.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/server/Wrap.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/server/Protocol.java
+/home/isacm/NetBeansProjects/Server/src/main/java/ssi/g3/server/Manager.java
