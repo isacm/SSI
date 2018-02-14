@@ -20,7 +20,7 @@ public class ConnectionFactory {
             Class.forName("com.mysql.jdbc.Driver");
             
             return DriverManager.getConnection("jdbc:mysql://localhost/jPostMan?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
-                    "root", "w2w8k1994");
+                    "root", "my_password");
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
